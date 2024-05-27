@@ -1,0 +1,174 @@
+
+
+
+
+   aa 
+   vvv
+   ccc
+
+test1
+  teste2
+  test 23
+  tes t4
+
+
+JobId=8268 JobName=ifm_pert
+   UserId=dfl32(21944) GroupId=dijk(11095) MCS_label=N/A
+   Priority=45862 Nice=0 Account=dijk QOS=normal
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=00:49:41 TimeLimit=2-00:00:00 TimeMin=N/A
+   SubmitTime=2024-05-07T16:06:39 EligibleTime=2024-05-07T16:06:39
+   AccrueTime=2024-05-07T16:06:39
+   StartTime=2024-05-07T16:08:42 EndTime=2024-05-09T16:08:42 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2024-05-07T16:08:42 Scheduler=Backfill
+   Partition=gpu AllocNode:Sid=r817u09n03:2360666
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=r4516u01n01,r4516u01n02
+   BatchHost=r4516u01n01
+   NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:1
+   ReqTRES=cpu=2,mem=64G,node=1,billing=12,gres/gpu=1
+   AllocTRES=cpu=2,mem=64G,node=1,billing=12,gres/gpu=1,gres/gpu:a40=1
+   Socks/Node=* NtasksPerN:B:S:C=1:0:*:1 CoreSpec=*
+   JOB_GRES=gpu:a40:1
+     Nodes=r4516u01n01 CPU_IDs=0,11 Mem=65536 GRES=gpu:a40:1(IDX:0)
+     Nodes=r4516u01n02 CPU_IDs=0,11 Mem=65536 GRES=gpu:a40:1(IDX:1)
+   MinCPUsNode=2 MinMemoryNode=64G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/gpfs/radev/project/dijk/dfl32/ifm/scripts/ifm_perturbation.sh
+   WorkDir=/gpfs/radev/project/dijk/dfl32/ifm
+   StdErr=/gpfs/radev/project/dijk/dfl32/ifm/logs/ifm_pert_%J.log
+   StdIn=/dev/null
+   StdOut=/gpfs/radev/project/dijk/dfl32/ifm/logs/ifm_pert_%J.log
+   Power=
+   TresPerJob=gres:gpu:1
+   MailUser=daniel.levine@yale.edu MailType=INVALID_DEPEND,BEGIN,END,FAIL,REQUEUE,STAGE_OUT
+   
+
+JobId=8271 JobName=ood-jupyter
+   UserId=dy274(22473) GroupId=saxena(11557) MCS_label=N/A
+   Priority=35484 Nice=0 Account=saxena QOS=interactive
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=00:45:26 TimeLimit=23:00:00 TimeMin=N/A
+   SubmitTime=2024-05-07T16:12:49 EligibleTime=2024-05-07T16:12:49
+   AccrueTime=2024-05-07T16:12:49
+   StartTime=2024-05-07T16:12:57 EndTime=2024-05-08T15:12:57 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2024-05-07T16:12:57 Scheduler=Main
+   Partition=bigmem AllocNode:Sid=ondemand1:1754864
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=r817u09n05
+   BatchHost=r817u09n05
+   NumNodes=1 NumCPUs=4 NumTasks=1 CPUs/Task=4 ReqB:S:C:T=0:0:*:*
+   ReqTRES=cpu=4,mem=800G,node=1,billing=20
+   AllocTRES=cpu=4,mem=800G,node=1,billing=20
+   Socks/Node=* NtasksPerN:B:S:C=0:0:*:1 CoreSpec=*
+   JOB_GRES=(null)
+     Nodes=r817u09n05 CPU_IDs=1-4 Mem=819200 GRES=
+   MinCPUsNode=4 MinMemoryCPU=200G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=(null)
+   WorkDir=/home/dy274/ondemand/data/sys/dashboard/batch_connect/sys/ycrc_jupyter/output/400b6687-1fd8-42da-84a4-13c09d8f5b8a
+   StdErr=/home/dy274/ondemand/data/sys/dashboard/batch_connect/sys/ycrc_jupyter/output/400b6687-1fd8-42da-84a4-13c09d8f5b8a/output.log
+   StdIn=/dev/null
+   StdOut=/home/dy274/ondemand/data/sys/dashboard/batch_connect/sys/ycrc_jupyter/output/400b6687-1fd8-42da-84a4-13c09d8f5b8a/output.log
+   Power=
+   
+
+JobId=8276 JobName=ifm_pert
+   UserId=dfl32(21944) GroupId=dijk(11095) MCS_label=N/A
+   Priority=45862 Nice=0 Account=dijk QOS=normal
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=1 Restarts=0 BatchFlag=1 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=00:14:41 TimeLimit=2-00:00:00 TimeMin=N/A
+   SubmitTime=2024-05-07T16:41:26 EligibleTime=2024-05-07T16:41:26
+   AccrueTime=2024-05-07T16:41:26
+   StartTime=2024-05-07T16:43:42 EndTime=2024-05-09T16:43:42 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2024-05-07T16:43:42 Scheduler=Backfill
+   Partition=gpu AllocNode:Sid=r817u09n03:2360666
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=r4518u09n01
+   BatchHost=r4518u09n01
+   NumNodes=1 NumCPUs=2 NumTasks=1 CPUs/Task=2 ReqB:S:C:T=0:0:*:1
+   ReqTRES=cpu=2,mem=64G,node=1,billing=12,gres/gpu=1
+   AllocTRES=cpu=2,mem=64G,node=1,billing=12,gres/gpu=1,gres/gpu:a40=1
+   Socks/Node=* NtasksPerN:B:S:C=1:0:*:1 CoreSpec=*
+   JOB_GRES=gpu:a40:1
+     Nodes=r4518u09n01 CPU_IDs=0,16 Mem=65536 GRES=gpu:a40:1(IDX:2)
+   MinCPUsNode=2 MinMemoryNode=64G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/gpfs/radev/project/dijk/dfl32/ifm/scripts/ifm_perturbation.sh
+   WorkDir=/gpfs/radev/project/dijk/dfl32/ifm
+   StdErr=/gpfs/radev/project/dijk/dfl32/ifm/logs/ifm_pert_%J.log
+   StdIn=/dev/null
+   StdOut=/gpfs/radev/project/dijk/dfl32/ifm/logs/ifm_pert_%J.log
+   Power=
+   TresPerJob=gres:gpu:1
+   MailUser=daniel.levine@yale.edu MailType=INVALID_DEPEND,BEGIN,END,FAIL,REQUEUE,STAGE_OUT
+   
+
+JobId=8044 JobName=interactive
+   UserId=hy348(16068) GroupId=yildirim(11051) MCS_label=N/A
+   Priority=999999 Nice=0 Account=yildirim QOS=interactive
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=0 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=13:04:10 TimeLimit=2-00:00:00 TimeMin=N/A
+   SubmitTime=2024-05-06T19:56:35 EligibleTime=2024-05-06T19:56:36
+   AccrueTime=2024-05-06T19:56:36
+   StartTime=2024-05-07T20:52:37 EndTime=2024-05-09T20:52:37 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2024-05-07T20:52:37 Scheduler=Main
+   Partition=gpu AllocNode:Sid=login1:3128351
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=r4516u05n01,r4516u09n01
+   BatchHost=r4516u05n01
+   NumNodes=2 NumCPUs=64 NumTasks=8 CPUs/Task=8 ReqB:S:C:T=0:0:*:1
+   ReqTRES=cpu=64,mem=100G,node=2,billing=80,gres/gpu=8
+   AllocTRES=cpu=64,mem=100G,node=2,billing=80,gres/gpu=8,gres/gpu:a40=8
+   Socks/Node=* NtasksPerN:B:S:C=4:0:*:1 CoreSpec=*
+   JOB_GRES=gpu:a40:8
+     Nodes=r4516u05n01,r4516u09n01 CPU_IDs=0-31 Mem=51200 GRES=gpu:a40:4(IDX:0-3)
+   MinCPUsNode=32 MinMemoryNode=50G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/bin/sh
+   WorkDir=/gpfs/radev/project/yildirim/hy348/dev/SparK/pretrain
+   Power=
+   TresPerNode=gres:gpu:4
+   MailUser=hy348 MailType=INVALID_DEPEND,BEGIN,END,FAIL,REQUEUE,STAGE_OUT
+
+JobId=8144 JobName=interactive
+   UserId=hy348(16068) GroupId=yildirim(11051) MCS_label=N/A
+   Priority=999999 Nice=0 Account=yildirim QOS=interactive
+   JobState=RUNNING Reason=None Dependency=(null)
+   Requeue=0 Restarts=0 BatchFlag=0 Reboot=0 ExitCode=0:0
+   DerivedExitCode=0:0
+   RunTime=13:04:10 TimeLimit=2-00:00:00 TimeMin=N/A
+   SubmitTime=2024-05-06T19:56:35 EligibleTime=2024-05-06T19:56:36
+   AccrueTime=2024-05-06T19:56:36
+   StartTime=2024-05-07T20:52:37 EndTime=2024-05-09T20:52:37 Deadline=N/A
+   SuspendTime=None SecsPreSuspend=0 LastSchedEval=2024-05-07T20:52:37 Scheduler=Main
+   Partition=gpu AllocNode:Sid=login1:3128351
+   ReqNodeList=(null) ExcNodeList=(null)
+   NodeList=r4516u05n01,r4516u09n01
+   BatchHost=r4516u05n01
+   NumNodes=2 NumCPUs=64 NumTasks=8 CPUs/Task=8 ReqB:S:C:T=0:0:*:1
+   ReqTRES=cpu=64,mem=100G,node=2,billing=80,gres/gpu=8
+   AllocTRES=cpu=64,mem=100G,node=2,billing=80,gres/gpu=8,gres/gpu:a40=8
+   Socks/Node=* NtasksPerN:B:S:C=4:0:*:1 CoreSpec=*
+   JOB_GRES=gpu:a40:8
+     Nodes=r4516u05n01,r4516u09n01 CPU_IDs=0-31 Mem=51200 GRES=gpu:a40:5(IDX:0,3,5-7)
+   MinCPUsNode=32 MinMemoryNode=50G MinTmpDiskNode=0
+   Features=(null) DelayBoot=00:00:00
+   OverSubscribe=OK Contiguous=0 Licenses=(null) Network=(null)
+   Command=/bin/sh
+   WorkDir=/gpfs/radev/project/yildirim/hy348/dev/SparK/pretrain
+   Power=
+   TresPerNode=gres:gpu:4
+

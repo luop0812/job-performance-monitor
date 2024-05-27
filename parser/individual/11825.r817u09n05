@@ -1,0 +1,6 @@
+gpus:
+  r817u09n05: []
+nodelist:
+- r817u09n05
+partition: bigmem
+userid: dfl32

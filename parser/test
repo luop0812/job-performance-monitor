@@ -1,0 +1,10 @@
+'8044': {
+'userid': 'hy348', 
+'nodelist': ['r4516u05n01', 'r4516u09n01'], 
+'partition': 'gpu', 
+'gpus': {
+  'r4516u05n01': [{'type': 'a40', 'idx': 0}, {'type': 'a40', 'idx': 1}, {'type': 'a40', 'idx': 2}, {'type': 'a40', 'idx': 3}], 
+  'r4516u09n01': [{'type': 'a40', 'idx': 0}, {'type': 'a40', 'idx': 1}, {'type': 'a40', 'idx': 2}, {'type': 'a40', 'idx': 3}]
+  }
+}
+

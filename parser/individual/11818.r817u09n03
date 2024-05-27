@@ -1,0 +1,6 @@
+gpus:
+  r817u09n03: []
+nodelist:
+- r817u09n03
+partition: day
+userid: dfl32

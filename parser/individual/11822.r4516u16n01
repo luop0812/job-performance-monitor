@@ -1,0 +1,8 @@
+gpus:
+  r4516u16n01:
+  - idx: 1
+    type: h100
+nodelist:
+- r4516u16n01
+partition: gpu
+userid: wcp27

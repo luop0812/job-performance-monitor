@@ -1,0 +1,8 @@
+gpus:
+  r4516u01n01:
+  - idx: 2
+    type: a40
+nodelist:
+- r4516u01n01
+partition: gpu
+userid: jz875

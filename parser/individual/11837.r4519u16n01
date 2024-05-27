@@ -1,0 +1,8 @@
+gpus:
+  r4519u16n01:
+  - idx: 0
+    type: a100
+nodelist:
+- r4519u16n01
+partition: gpu
+userid: jc3999

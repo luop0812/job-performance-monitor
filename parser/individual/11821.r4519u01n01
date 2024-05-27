@@ -1,0 +1,8 @@
+gpus:
+  r4519u01n01:
+  - idx: 0
+    type: a100.MIG.20gb
+nodelist:
+- r4519u01n01
+partition: gpu_devel
+userid: wcp27

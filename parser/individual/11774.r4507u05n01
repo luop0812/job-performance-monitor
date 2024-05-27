@@ -1,0 +1,14 @@
+gpus:
+  r4507u05n01:
+  - idx: 0
+    type: h100
+  - idx: 1
+    type: h100
+  - idx: 2
+    type: h100
+  - idx: 3
+    type: h100
+nodelist:
+- r4507u05n01
+partition: gpu
+userid: dfl32
